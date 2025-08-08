@@ -22,7 +22,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://ah-toch-store-laravel.vercel.app",
+        "APP_URL": "https://game-spin-git-development-sarun-devs-projects.vercel.app",
         "APP_KEY": "base64:w7fBj13ul3nD5AI9GTeK3vzjhSm0xD51fcpUccGiFJU=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -33,9 +33,7 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
-        "DB_CONNECTION": "d1",
-        "CLOUDFLARE_D1_DATABASE_ID": "your-database-id",
-        "CLOUDFLARE_TOKEN": "your-cloudflare-token",
-        "CLOUDFLARE_ACCOUNT_ID": "your-account-id"
+        "DB_CONNECTION": "pgsql",
+        "DB_URL": "postgres://postgres.inixrqbjruqpaeviakmr:OGtj3WePAUgz8n3x@aws-0-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x"
     }
 }
