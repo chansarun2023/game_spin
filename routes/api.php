@@ -18,7 +18,7 @@ Route::prefix('v1')->group(function () {
         Route::post('validate-token', [AuthController::class, 'validateToken']);
         Route::post('check-session', [AuthController::class, 'checkSession']);
 
-        // Debug routes (for development only)
+
         Route::post('debug-tokens', [AuthController::class, 'debugTokens']);
         Route::post('cleanup-tokens', [AuthController::class, 'cleanupTokens']);
 

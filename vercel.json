@@ -5,14 +5,7 @@
         "api/index.php": { "runtime": "vercel-php@0.7.3" }
     },
     "routes": [
-        {
-            "src": "/build/(.*)",
-            "dest": "/build/$1"
-        },
-        {
-            "src": "/(.*\\.(?:css|js|png|jpg|jpeg|gif|svg|ico|ttf|woff|woff2|eot|otf|webp|avif|txt))$",
-            "dest": "/public/$1"
-        },
+
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
@@ -21,7 +14,7 @@
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
+        "APP_DEBUG": "false",
         "APP_URL": "https://game-spin-git-development-sarun-devs-projects.vercel.app",
         "APP_KEY": "base64:w7fBj13ul3nD5AI9GTeK3vzjhSm0xD51fcpUccGiFJU=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
@@ -34,6 +27,8 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "pgsql",
-        "DB_URL": "postgres://postgres.inixrqbjruqpaeviakmr:OGtj3WePAUgz8n3x@aws-0-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x"
+        "DB_URL": "postgres://postgres.inixrqbjruqpaeviakmr:OGtj3WePAUgz8n3x@aws-0-us-east-1.pooler.supabase.com:6543/postgres?sslmode=require&supa=base-pooler.x",
+        "DB_SCHEMA": "public",
+        "DB_SSLMODE": "require"
     }
 }
