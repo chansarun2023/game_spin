@@ -23,7 +23,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://ah-toch-store-laravel.vercel.app",
-        "APP_KEY": "base64:SB9NTkLD4xlbWsqishQ/ctmaOc0iT6pLEuzeaMpANPM=",
+        "APP_KEY": "base64:w7fBj13ul3nD5AI9GTeK3vzjhSm0xD51fcpUccGiFJU=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
         "APP_PACKAGES_CACHE": "/tmp/packages.php",
